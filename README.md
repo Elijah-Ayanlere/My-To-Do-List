@@ -23,10 +23,15 @@ Welcome to the My To-Do List application! This is a simple to-do list manager th
    git clone https://github.com/Elijah-Ayanlere/your-to-do-list-repo.git
 
 1. Install required Python packages:
+
+   ```bash
      pip install mysql-connector-python
-2. Create a MySQL database named to_do_list and ensure you have a MySQL server running.
-3. Execute the SQL script database_setup.sql to set up the initial database structure.
-4. Run the application:
+   
+3. Create a MySQL database named to_do_list and ensure you have a MySQL server running.
+4. Execute the SQL script database_setup.sql to set up the initial database structure.
+5. Run the application:
+
+   ```bash
     python3 to-do-list.py
 
 ## Database Schema
